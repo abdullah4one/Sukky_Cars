@@ -1,0 +1,5 @@
+BWM|12400|1999|bmw.jpg|German
+Ford|8900|2003|Ford.jpg|American
+Ferrari|210000|2009|ferrari.jpg|Italian
+Mercedes|32000|2001|mersu.jpg|German
+Seat|23000|2005|seat.jpg|spanish

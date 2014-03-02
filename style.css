@@ -1,0 +1,124 @@
+body {
+	width: 100%;
+}
+#comp_name {
+		border: solid red 50px;
+		width: 87%; 
+		height: 70px;
+		background-color:red; 
+		color: #00FFFF; 
+		font-size: 100px; 
+		font-weight: bold;
+		font-family: Times Roman;
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+.table_header {
+	background-color: green;
+}
+
+.table_content {
+	color: blue; 
+	font-size: 20px; 
+	font-weight: bold; 
+	vertical-align:top; 
+	text-align: center;
+	
+}
+
+#button_style {	
+	height: 40px; 
+	width: 100%;
+	font-size:20px;
+	color:#09C; 
+}
+
+#main {
+	width: 60%;
+	padding-left: 30px;
+	border: solid black 2px;
+	margin-left: 19%;
+	background-color:#004C3D;
+}
+
+
+#sidebar {
+	float: left;
+	width: 18%;
+}
+#bestdeal {
+	height: 10%;
+	/*width: 25%;*/
+	font-size: larger;
+	background:#CF6;
+	color: blue;
+	font-size: 40px;
+	text-align: center;
+	text-decoration:blink;
+	
+	margin-top: 50px;
+}
+#login {
+	width: 100%;
+	height: 150px;
+	border: 1px;
+	cellpadding: 0;
+	cellspacing: 1;
+	margin-left: 0px;
+	margin-top: 10px;
+	float: left;
+	
+
+}
+.inp {
+	color:red;
+}
+
+.table1 {
+	padding-left: 12%;
+	width: 85%;
+	table-layout: fixed;
+}
+
+.table2 {
+	margin-left: 30%;
+	width: 40%;
+	table-layout: fixed;
+}
+
+.userOption {
+	width: 16%;
+	height: 150px;
+	border: 1px;
+	float: right;
+	margin-top: 150px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-top: 20px;
+	background-color: #66FFFF;
+	opacity: 0.95;
+}
+/*Responsive design */
+
+/* For tablets*/
+@media only screen and (max-width: 959px) and (min-width: 769px), only screen and (max-device-width: 959px) and (max-device-width: 769px) {
+	#sidebar {
+		width: 15%;
+	}
+}
+
+/* For mobiles */
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+	#sidebar {
+		display: none;
+	}
+
+	#main {
+		width: 98%;
+		margin-left: auto;
+		margin-right: 1%;
+		font-size: 20px;
+	}
+}
+
